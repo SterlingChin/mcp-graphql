@@ -1,0 +1,38 @@
+{
+  "name": "graphql-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for GraphQL endpoints with introspection capabilities",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "mcp",
+    "model-context-protocol",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "@types/node-fetch": "^2.6.4",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  },
+  "bin": {
+    "graphql-mcp-server": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ]
+}
