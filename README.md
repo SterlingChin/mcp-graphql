@@ -22,24 +22,16 @@ npm install
 ## Usage
 
 ```bash
-# Start the server
-npm start
-
-# For development with auto-reload
-npm run dev
-```
-
-## Development
-
-This project is built with TypeScript. To build the project:
-
-```bash
+# create the MCP server
 npm run build
+
 ```
+
+To use in Claude Desktop, follow the instructions found here: [Model Context Protocol Desktop Users](https://modelcontextprotocol.io/quickstart/user)
 
 ## Configuration
 
-By default, the server connects to the GraphQL endpoint at `https://graphql.org/graphql`. To change this endpoint, modify the URLs in the `src/index.js` file.
+By default, the server connects to the Star Wars GraphQL endpoint at `https://graphql.org/graphql`. To change this endpoint, modify the URLs in the `src/index.js` file.
 
 ## License
 
